@@ -1,0 +1,124 @@
+
+*
+{
+margin:0;
+padding:0;
+  }
+#full-page{
+  background-image: url(wall.jpg);
+  width:100%;
+  height:100%;
+  position: absolute;
+background-size: cover;
+
+}
+#navbar{
+  display:flex;
+  align-items: center;
+  padding: 10px 30px;
+
+}
+nav {
+  flex:1;
+  text-align: right;
+  display:inline;
+  padding: 30px 30px;
+}
+nav ul{
+  list-style-type:none;
+  display:inline;
+}
+nav ul li{
+  display:inline;
+  margin-right: 70px;
+
+}
+nav ul li a{
+  color:white;
+  text-decoration:none;
+  font-size:25px;
+}
+nav ul li button{
+  color:white;
+  font-size:28px;
+  background: transparent;
+  border:0;
+  outline:none;
+  cursor:pointer;
+
+}
+
+div a{
+  color:white;
+  font-size:30px;
+  text-decoration:none;
+
+}
+.button-bar{
+  margin:20px;
+text-align: center;
+margin-bottom: 30px;
+position: relative;
+}
+.toggle-btn{
+  border-radius:30px;
+  padding:10px;
+  width:30%
+}
+#form-page{
+  width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+    border-radius:40px;
+}
+#login-form{
+  display:none;
+}
+.input-field{
+
+  padding:10px;
+  width:100%;
+  margin:10px;
+  background-color: transparent;
+  outline:none;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:1px solid white;
+
+}
+
+.login{
+  top:150px;
+  position:absolute;
+  left:40px;
+  width:280px;
+
+
+
+}
+
+.register{
+  top:100px;
+  position:absolute;
+  left:40px;
+  width:280px;
+
+}
+form input{
+  color:white;
+  font-size:18px;
+
+}
+form button{
+  padding:10px;
+  border-radius:15px;
+  margin:20px;
+  width:75%;
+  font-size:20px;
+  margin-left:50px;
+}
